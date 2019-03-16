@@ -1,0 +1,14 @@
+{
+    "code": 20000,
+    "msg": "请求成功",
+    "date": [{
+        "phref": "www.baidu.com",
+        "purl": "./../images/img-index/banner3.png"},
+        {
+            "phref": "www.baidu.com",
+            "purl": "./../images/img-index/banner3.png"},
+        {
+            "phref": "www.baidu.com",
+            "purl": "./../images/img-index/banner3.png"}
+    ]
+}

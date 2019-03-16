@@ -1,0 +1,42 @@
+.all-content {
+  background-image: url(./../images/img-index/ti.png);
+  background-repeat: no-repeat;
+  background-size: 1080px 272px;
+  position: relative; }
+
+.content {
+  width: 994px;
+  position: absolute;
+  top: 193px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff; }
+  .content .service-content {
+    width: 888px;
+    margin-left: 56px;
+    padding-right: 30px;
+    height: 1210px;
+    overflow: auto; }
+    .content .service-content ::-webkit-scrollbar-button {
+      display: none; }
+    .content .service-content ::-webkit-scrollbar-track {
+      display: none; }
+    .content .service-content h3 {
+      font-size: 36px;
+      font-weight: 400;
+      color: #D4A962;
+      font-family: PingFang-SC-Medium;
+      margin-top: 65px; }
+    .content .service-content p {
+      margin-top: 30px;
+      font-size: 28px;
+      font-weight: 400;
+      color: #333;
+      line-height: 46px;
+      font-family: PingFang-SC-Medium; }
+    .content .service-content .fimg {
+      margin-top: 30px; }
+
+#footer {
+  margin-top: 1488px; }

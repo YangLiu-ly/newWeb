@@ -1,0 +1,264 @@
+$bg-tf: #222;
+$fontking-color: #D4A962;
+$fontgray-color: #666666;
+$time-color: #E6E6E6;
+$font-pingfang: PingFang-SC-Medium;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.fleft{
+    float: left;
+}
+.fright{
+    float: right;
+}
+.clearboth:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.clearp:after{
+    content: "";
+    display: block;
+    position: static;
+}
+.app{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #EBEBEB;
+}
+.yellow-tiao{
+    width: 1080px;
+    background-color: $fontking-color;
+}
+
+.header{
+    background-color: $bg-tf;
+    padding-top: 25px;
+    .lan{
+        margin-right: 54px;
+        a{
+            display: block;
+            float: left;
+            width: 100px;
+            font-size: 30px;
+            line-height: 32px;
+            text-align: center;
+            font-family: $font-pingfang;
+        }
+        #index-btn{
+            width: 32px;
+            height: 31px;
+            margin-right: 35px;
+            background-image: url(../images/img-index/index.png);
+        }
+        .en-btn{
+            color: #666666;
+        }
+        .ch-btn{
+            color: $fontking-color;
+        }
+        .lan-gang{
+            float: left;
+            height: 32px;
+            color: $fontgray-color;
+            border: 1px solid $fontgray-color;
+        }
+    }
+    .tag{
+        width: 402px;
+        height: 109px;
+        margin: 45px 61px 69px;
+    }
+    .date{
+        margin-left: 148px;
+        margin-top: 28px;
+        .h-time{
+            color: $time-color;
+            font-size: 64px;
+            line-height: 90px;
+            width: 184px;
+        }
+        .detailed-t{
+            width: 183px;
+            margin-left:13px;
+            margin-top: 15px;
+            .y-time{
+                display: block;
+                color: $time-color;
+                font-size: 24px;
+                line-height: 33px; 
+            }
+            .w-time,.ad-guang{
+                display: inline;
+                font-size: 20px;
+                line-height: 30px;
+                color: $time-color;
+            }
+            .ad-guang{
+                font-style: normal;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.header-small{
+    background-color: rgba(0,0,0,0.8);
+    .yellow-tiao{
+        height: 24px;
+    }
+    .c-title{
+        width: 1080px;
+        padding-top: 43px;
+        padding-bottom: 111px;
+
+        h2{
+            text-align: center;
+            font-size: 48px;
+            font-weight: 400;
+            color: $fontking-color;
+            font-family: $font-pingfang;
+        }
+        .yellow-stiao{
+            width: 100px;
+            height: 1px;
+            border-top: 3px solid $fontking-color;
+            margin: 0 auto;
+            margin-top: 24px;
+        }
+    }
+}
+
+.floor-nav-cue{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 24, 24, 0.5);
+    z-index: 100;
+    display: none;
+    .nv-all{
+        width: 900px;
+        height: 928px;
+        margin: 0 auto;
+        margin-top: 678px;
+        position: relative;
+        .nv-title{
+            background-color: #333;
+            .close-btn{
+                position: absolute;
+                top: 22px;
+                right: 30px;
+                width: 42px;
+                height: 42px;
+                background-image: url(./../images/img-index/close.png);
+                // background-repeat: no-repeat;
+            }
+            h3{
+                line-height: 85px;
+                text-align: center;
+                font-weight: 400;
+                font-display: $font-pingfang;
+                color: $fontking-color;
+                font-size: 36px;
+            }
+        }
+        .nv-content{
+            background-color: #fff;
+            padding-top: 95px;
+            padding-bottom: 97px;
+            .nv-notice{
+                width: 696px;
+                margin-left: 71px;
+                font-size: 26px;
+                color: #333;
+                span{
+                    color: $fontking-color;
+                }
+            }
+            .nv-pic{
+                margin-top: 19px;
+                .pic-floor{
+                    width: 167px;
+                    height: 300px;
+                    margin-left: 61px;
+                }
+                .pic-nav{
+                    width: 538px;
+                    height: 246px;
+                    margin-left: 64px;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 45px;
+    padding-bottom: 36px;
+    width: 1080px;
+    background-image: url(./../images/img-index/footer-bg.png);
+    .yellow-tiao{
+        height: 10px;
+    }
+    .com-info{
+        margin-top: 59px;
+        margin-left: 68px;
+        span{
+            float: left;
+            width: 24px;
+            height: 45px;
+            margin-top: 5px;
+            margin-right: 20px;
+        }
+        p{
+            float: left;
+            line-height: 42px;
+            font-size: 30px;
+            color: #E6E6E6;
+            font-family: $font-pingfang;
+        }
+    }
+    .com-phone{
+        margin-top: 19px;
+        span{
+            float: left;
+            width: 38px;
+            height: 34px;
+            margin-top: 4px;
+            margin-right: 13px;
+        }
+        p{
+            float: left;
+            line-height: 42px;
+            font-family: $font-pingfang;
+            font-size: 30px;
+            color: #e6e6e6;
+        }
+    }
+    .er-ma{
+        margin-top: 36px;
+        margin-right: 60px;
+        span{
+            color: $fontgray-color;
+            font-size: 28px;
+            float: left;
+            width: 33px;
+            line-height: 34px;
+            margin-top: 6px;
+            margin-right: 7px;
+        }
+        .tu{
+            float: left;
+            width: 148px;
+            height: 148px;
+            border: 1px dashed $fontgray-color;
+        }
+    }
+}

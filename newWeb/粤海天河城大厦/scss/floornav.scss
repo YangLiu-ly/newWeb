@@ -1,0 +1,262 @@
+$bg-tf: #222;
+$fontking-color: #D4A962;
+$fontgray-color: #666666;
+$time-color: #E6E6E6;
+$font-pingfang: PingFang-SC-Medium;
+.all-content{
+    background-image: url(./../images/img-index/ti.png);
+    background-repeat: no-repeat;
+    background-size: 1080px 272px;
+    position: relative;
+    .header-small{
+        a{
+            text-decoration: none;
+        }
+        .c-title{
+            padding-bottom: 0;
+        }
+        .fn-h{
+            padding-top: 20px;
+            .fceng-box{
+                margin-top: 8px;
+                position: relative;
+                a{
+                    display: block;
+                    margin-left: 35px;
+                    h4{
+                        float: left;
+                        color: $fontking-color;
+                        font-size: 30px;
+                        font-weight: 400;
+                        font-family: $font-pingfang;
+                        line-height: 42px;
+                    }
+                    span{
+                        display: inline-block;
+                        width: 26px;
+                        height: 19px;
+                        line-height: 42px;
+                        margin-left: 20px;
+                        margin-top: 11px;
+                        background-image: url(../images/img-index/next.png);
+                        background-repeat: norepeat;
+                        cursor: pointer;
+
+                        // transform: rotate(-90deg);
+                    }
+                }
+                .fhl-select{
+                    background-color: #fff;
+                    position: absolute;
+                    top: 50px;
+                    left: 15px;
+                    padding-right: 41px;
+                    padding-bottom: 29px;
+                    border-radius: 3px;
+                    a{
+                        display: block;
+                        color: $fontking-color;
+                        font-size: 30px;
+                        margin-left: 15px;
+                        margin-top: 29px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .floor-select{
+                width: 880px;
+                padding-bottom: 23px;
+                span{
+                    float: left;
+                    height: 18px;
+                    width: 25px;
+                    background-image: url(../images/img-index/next.png);
+                    margin-top: 24px;
+                }
+                .last-fbtn{
+                    transform: rotate(90deg);
+                    margin-right: 24px;
+                    margin-left: 30px;
+                }
+                .next-fbtn{
+                    transform: rotate(-90deg);
+                    margin-left: 25px;
+                }
+                .floor-list{
+                    padding-left: 25px;
+                    li{
+                        float: left;
+                        width: 71px;
+                        height: 71px;
+                        text-align: center;
+                        line-height: 71px;
+                        font-size: 40px;
+                        font-family: $font-pingfang;
+                        a{
+                            color: $fontgray-color;
+                        }
+                    }
+                    li+li{
+                        margin-left: 20px;
+                    }
+                    .fn-active{
+                        background-color: $fontking-color;
+                        border-radius: 50%;
+                        a{
+                            color: #000;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .company{
+        padding-top: 189px;
+        .com-nav{
+            width: 1038px;
+            height: 381px;
+            margin: 0 auto;
+        }
+        .search-box{
+            width: 970px;
+            margin: 0 auto;
+            padding-top: 62px;
+           .communal-facilities{
+               a{
+                   float: left;
+                   background-color: #E1E1E1;
+                   position: relative;
+                   margin-right: 19px;
+                   span{
+                       position: absolute;
+                       left: 0;
+                       right: 0;
+                       top: 0;
+                       bottom: 0;
+                       margin: auto;
+                   }
+               }
+               .elevoter{
+                   width:73px;
+                   height: 73px;
+                    span{
+                        width: 32px;
+                        height: 46px;
+                        background-image: url(../images/img-index/elevoter.png);
+                    }
+               }
+               .stails{
+                   width: 65px;
+                   height: 65px;
+                   margin-top: 4px;
+                   span{
+                        width: 43px;
+                        height: 36px;
+                        background-image: url(../images/img-index/stails.png);
+                   }
+               }
+               .toilet{
+                   width: 65px;
+                   height: 65px;
+                   margin-top: 4px;
+                   span{
+                       width: 31px;
+                       height: 39px;
+                       background-image: url(../images/img-index/toilet.png);
+                   }
+               }
+               
+           } 
+           .search{
+               width: 300px;
+               height: 58px;
+               border: 1px solid $fontking-color;
+               border-radius: 30px;
+               margin-top: 7px;
+               input{
+                   float: left;
+                   width: 207px;
+                   border: 0;
+                   outline: 0;
+                   background: rgba(0,0,0,0);
+                   color: $fontgray-color;
+                   font-size: 24px;
+                   font-family: $font-pingfang;
+                   line-height: 33px;
+                   margin-top: 13px;
+                   margin-left: 22px;
+
+               }
+               a{
+                   float: left;
+                   width: 37px;
+                   height: 42px;
+                   background-image: url(../images/img-index/search.png);
+                   margin-top: 9px;
+               }
+           } 
+        }
+        .company-box{
+            width: 994px;
+            margin: 0 auto;
+            margin-top: 35px;
+            background-color: #fff;
+            .com-h{
+                padding-top: 30px;
+                .fn-title{
+                    font-family: $font-pingfang;
+                    margin-left: 42px;
+                    h5{
+                        float: left;
+                        font-size: 64px;
+                        font-weight: 400;
+                        line-height: 90px;
+                        color: $fontking-color;
+                    }
+                    span{
+                        float: left;
+                        font-size: 24px;
+                        line-height: 33px;
+                        color: #ccc;
+                        margin-top: 42px;
+                    }
+                } 
+                .com-c{
+                    margin-right: 41px;
+                    margin-top: 21px;
+                    margin-bottom: 20px;
+                    a{
+                       float: left;
+                       text-decoration: none;
+                        width: 120px;
+                        border: 1px solid $fontking-color;
+                        color: $fontking-color;
+                        line-height: 48px;
+                        text-align: center;
+                        font-size: 24px;
+                        margin-left: 20px;
+                    }
+                    .c-active{
+                        color: #fff;
+                        background-color: $fontking-color;
+                    }
+                }
+            }
+            .changxian{
+                height: 20px;
+                width: 994px;
+                border-top: 2px solid #e6e6e6;
+                margin-top: 20px;
+
+            } 
+            .company-list{
+                a{
+                    color: $fontgray-color;
+                    font-size: 28px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

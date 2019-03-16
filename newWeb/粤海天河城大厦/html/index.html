@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="./../css/index.css">
+    <link rel="stylesheet" href="./../css/swiper.min.css">
+    <script src="./../js/jquery-1.12.4.js"></script>
+    <script src="./../js/swiper.min.js"></script>
+    <style>
+        .swiper-pagination-bullet-active{
+            width: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .banner>.swiper-pagination{
+        position: absolute;
+        bottom: 27px;
+        left: 510px;}
+    </style>
+</head>
+<body>
+    <div class="app">
+        <header class="header clearboth">
+            <div class="lan fright">
+                <a class="en-btn">EN</a>
+                <span class="lan-gang"></span>
+                <a class="ch-btn">中文</a>
+            </div>
+            <div class="tag fleft">
+                <img src="./../images/img-index/Bitmap@2x.png" alt="图标">
+            </div>
+            <div class="date fleft">
+                <time class="h-time fleft">00:00</time>
+                <div class="detailed-t fleft">
+                    <time class="y-time">2018.00.00</time>
+                    <time class="w-time">星期一</time>
+                    <address class="ad-guang">广州</address>
+                </div>
+            </div>
+        </header>
+        <section class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="www.baidu.com"><img src="./../images/img-index/banner3.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="www.baidu.com"><img src="./../images/img-index/banner3.png" alt=""></a></div>
+                <div class="swiper-slide"><a href="www.baidu.com"><img src="./../images/img-index/banner3.png" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </section>
+        <section class="content">
+            <div class="i-menu clearboth">
+                <a href="javascript:void(0)" class="menu-module nav-btn">
+                    <div class="nav-tag"><img src="./../images/img-index/楼层@2x.png" alt=""></div>
+                    <p>楼层导航</p>
+                </a>
+                <a href="" class="menu-module search-btn">
+                    <div class="s-tag"><img src="./../images/img-index/查询 (1)@2x.png" alt=""></div>
+                    <p>查找公司</p>
+                </a>
+                <a href="" class="menu-module position-btn">
+                    <div class="p-tag"><img src="./../images/img-index/当前位置@2x.png" alt=""></div>
+                    <p>当前位置</p>
+                </a>
+                <a href="./floorservice.html" class="menu-module service-btn">
+                    <div class="sev-tag"><img src="./../images/img-index/大楼@2x.png" alt=""></div>
+                    <p>大楼服务</p>
+                </a>
+            </div>
+            <div class="proclamation">
+                <h4>公告|<span></span></h4>
+                <p> </p>
+            </div>
+            <div class="bitmap">
+                <img src="./../images/img-index/Bitmap@2x(2).png" alt="地图">
+            </div>
+        </section>
+        <section class="floor-nav-cue">
+            <div class="nv-all">
+                <div class="nv-title">
+                    <a class="close-btn"></a>
+                    <h3>温馨提示</h3>
+                </div>
+                <div class="nv-content">
+                    <div class="nv-notice">
+                        <p>电梯区分高中低楼层，请注意要到达楼层，乘坐对应电梯。 </p><br>
+                        <p><span>低层区</span> 可前往5F~13F <span>中层区</span> 可前往14F~30F </p>
+                        <p><span>高层区</span> 可前往31F~45F</p><br>
+                        <p>在楼层搜索页面，请注意选择所到层区，精准搜索</p><br>
+                    </div>
+                    <div class="nv-pic clearboth">
+                        <div class="pic-floor fleft"><img src="../images/../images/img-index/Group6@2x.png" alt="图片"/></div>
+                        <div class="pic-nav fleft"><img src="./../images/img-index/nav-x.png" alt="图片"/></div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer clearboth">
+            <div class="com-info fleft">
+                <div class="com-address clearboth">
+                    <span><img src="./../images/img-index/位置@2x.png" alt="小图标"></span>
+                    <p>广州市天河区天河路208号天河城F1</p>
+                </div>
+                <div class="com-phone clearboth">
+                    <span><img src="./../images/img-index/电话111@2x.png" alt="小图标"></span>
+                    <p>020-88888898</p>
+                </div>
+            </div>
+            <div class="er-ma fright">
+                <span>关注物业</span>
+                <div class="tu"><img src="./../images/img-index/Bitmap@2x(3).png" alt=""></div>
+            </div>
+        </footer>
+    </div>
+<script src="./../js/public.js"></script>
+<script src="./../js/index.js"></script>
+<script>
+    //入口函数
+    $(function(){
+        //bannr图滑动
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+        
+        //楼层导航模块的显示
+        $(".nav-btn").on("click",function(){
+            $(".floor-nav-cue").css("display","block");
+        })
+        //关闭楼层导航模块
+        $(".floor-nav-cue .close-btn").on("click",function(){
+            $(".floor-nav-cue").css("display","none");
+        })
+       
+    })
+     //获取公告
+     getajax("./../data/prolacation.json",getPro);
+    //获取banner图
+    // getajax("./../data/indexImages.json",getBannerPic);
+
+        //加载公告
+        function getPro(arr1){
+            $(".proclamation>h4>span").text(arr1.pname);
+            $(".proclamation>p").text(arr1.pcontent);
+        }
+        //加载banner图
+        function getBannerPic(arr1) {
+            $(".banner>.swiper-wrapper").append('<div class="swiper-slide"><a href="'+arr1.phref+'"><img src="'+arr1.purl+'" alt=""></a></div>');
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+.all-content {
+  background-image: url(./../images/img-index/ti.png);
+  background-repeat: no-repeat;
+  background-size: 1080px 272px;
+  position: relative; }
+  .all-content .header-small a {
+    text-decoration: none; }
+  .all-content .header-small .c-title {
+    padding-bottom: 0; }
+  .all-content .header-small .fn-h {
+    padding-top: 20px; }
+    .all-content .header-small .fn-h .fceng-box {
+      margin-top: 8px;
+      position: relative; }
+      .all-content .header-small .fn-h .fceng-box a {
+        display: block;
+        margin-left: 35px; }
+        .all-content .header-small .fn-h .fceng-box a h4 {
+          float: left;
+          color: #D4A962;
+          font-size: 30px;
+          font-weight: 400;
+          font-family: PingFang-SC-Medium;
+          line-height: 42px; }
+        .all-content .header-small .fn-h .fceng-box a span {
+          display: inline-block;
+          width: 26px;
+          height: 19px;
+          line-height: 42px;
+          margin-left: 20px;
+          margin-top: 11px;
+          background-image: url(../images/img-index/next.png);
+          background-repeat: norepeat;
+          cursor: pointer; }
+      .all-content .header-small .fn-h .fceng-box .fhl-select {
+        background-color: #fff;
+        position: absolute;
+        top: 50px;
+        left: 15px;
+        padding-right: 41px;
+        padding-bottom: 29px;
+        border-radius: 3px; }
+        .all-content .header-small .fn-h .fceng-box .fhl-select a {
+          display: block;
+          color: #D4A962;
+          font-size: 30px;
+          margin-left: 15px;
+          margin-top: 29px;
+          cursor: pointer; }
+    .all-content .header-small .fn-h .floor-select {
+      width: 880px;
+      padding-bottom: 23px; }
+      .all-content .header-small .fn-h .floor-select span {
+        float: left;
+        height: 18px;
+        width: 25px;
+        background-image: url(../images/img-index/next.png);
+        margin-top: 24px; }
+      .all-content .header-small .fn-h .floor-select .last-fbtn {
+        transform: rotate(90deg);
+        margin-right: 24px;
+        margin-left: 30px; }
+      .all-content .header-small .fn-h .floor-select .next-fbtn {
+        transform: rotate(-90deg);
+        margin-left: 25px; }
+      .all-content .header-small .fn-h .floor-select .floor-list {
+        padding-left: 25px; }
+        .all-content .header-small .fn-h .floor-select .floor-list li {
+          float: left;
+          width: 71px;
+          height: 71px;
+          text-align: center;
+          line-height: 71px;
+          font-size: 40px;
+          font-family: PingFang-SC-Medium; }
+          .all-content .header-small .fn-h .floor-select .floor-list li a {
+            color: #666666; }
+        .all-content .header-small .fn-h .floor-select .floor-list li + li {
+          margin-left: 20px; }
+        .all-content .header-small .fn-h .floor-select .floor-list .fn-active {
+          background-color: #D4A962;
+          border-radius: 50%; }
+          .all-content .header-small .fn-h .floor-select .floor-list .fn-active a {
+            color: #000; }
+  .all-content .company {
+    padding-top: 189px; }
+    .all-content .company .com-nav {
+      width: 1038px;
+      height: 381px;
+      margin: 0 auto; }
+    .all-content .company .search-box {
+      width: 970px;
+      margin: 0 auto;
+      padding-top: 62px; }
+      .all-content .company .search-box .communal-facilities a {
+        float: left;
+        background-color: #E1E1E1;
+        position: relative;
+        margin-right: 19px; }
+        .all-content .company .search-box .communal-facilities a span {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto; }
+      .all-content .company .search-box .communal-facilities .elevoter {
+        width: 73px;
+        height: 73px; }
+        .all-content .company .search-box .communal-facilities .elevoter span {
+          width: 32px;
+          height: 46px;
+          background-image: url(../images/img-index/elevoter.png); }
+      .all-content .company .search-box .communal-facilities .stails {
+        width: 65px;
+        height: 65px;
+        margin-top: 4px; }
+        .all-content .company .search-box .communal-facilities .stails span {
+          width: 43px;
+          height: 36px;
+          background-image: url(../images/img-index/stails.png); }
+      .all-content .company .search-box .communal-facilities .toilet {
+        width: 65px;
+        height: 65px;
+        margin-top: 4px; }
+        .all-content .company .search-box .communal-facilities .toilet span {
+          width: 31px;
+          height: 39px;
+          background-image: url(../images/img-index/toilet.png); }
+      .all-content .company .search-box .search {
+        width: 300px;
+        height: 58px;
+        border: 1px solid #D4A962;
+        border-radius: 30px;
+        margin-top: 7px; }
+        .all-content .company .search-box .search input {
+          float: left;
+          width: 207px;
+          border: 0;
+          outline: 0;
+          background: transparent;
+          color: #666666;
+          font-size: 24px;
+          font-family: PingFang-SC-Medium;
+          line-height: 33px;
+          margin-top: 13px;
+          margin-left: 22px; }
+        .all-content .company .search-box .search a {
+          float: left;
+          width: 37px;
+          height: 42px;
+          background-image: url(../images/img-index/search.png);
+          margin-top: 9px; }
+    .all-content .company .company-box {
+      width: 994px;
+      margin: 0 auto;
+      margin-top: 35px;
+      background-color: #fff; }
+      .all-content .company .company-box .com-h {
+        padding-top: 30px; }
+        .all-content .company .company-box .com-h .fn-title {
+          font-family: PingFang-SC-Medium;
+          margin-left: 42px; }
+          .all-content .company .company-box .com-h .fn-title h5 {
+            float: left;
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 90px;
+            color: #D4A962; }
+          .all-content .company .company-box .com-h .fn-title span {
+            float: left;
+            font-size: 24px;
+            line-height: 33px;
+            color: #ccc;
+            margin-top: 42px; }
+        .all-content .company .company-box .com-h .com-c {
+          margin-right: 41px;
+          margin-top: 21px;
+          margin-bottom: 20px; }
+          .all-content .company .company-box .com-h .com-c a {
+            float: left;
+            text-decoration: none;
+            width: 120px;
+            border: 1px solid #D4A962;
+            color: #D4A962;
+            line-height: 48px;
+            text-align: center;
+            font-size: 24px;
+            margin-left: 20px; }
+          .all-content .company .company-box .com-h .com-c .c-active {
+            color: #fff;
+            background-color: #D4A962; }
+      .all-content .company .company-box .changxian {
+        height: 20px;
+        width: 994px;
+        border-top: 2px solid #e6e6e6;
+        margin-top: 20px; }
+      .all-content .company .company-box .company-list a {
+        color: #666666;
+        font-size: 28px;
+        text-decoration: none; }

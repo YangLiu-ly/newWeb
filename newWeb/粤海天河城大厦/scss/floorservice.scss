@@ -1,0 +1,66 @@
+$bg-tf: #222;
+$fontking-color: #D4A962;
+$fontgray-color: #666666;
+$time-color: #E6E6E6;
+$font-pingfang: PingFang-SC-Medium;
+.all-content{
+    background-image: url(./../images/img-index/ti.png);
+    background-repeat: no-repeat;
+    background-size: 1080px 272px;
+    position: relative;
+    // :after{
+    //     content: '';
+    //     display: block;
+    //     height: 100%;
+    //     transform: translateX(-100%);
+    //     background: inherit;
+    //     filter: drop-shadow(144px 0 0 rgba(0,0, 0,0.8)); 
+    // }
+}
+
+.content{
+    width: 994px;
+    position: absolute;
+    top: 193px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    .service-content{
+        width: 888px;
+        margin-left: 56px;
+        padding-right: 30px;
+        height: 1210px;
+        overflow: auto;
+        ::-webkit-scrollbar-button{
+            display: none;
+        }
+        ::-webkit-scrollbar-track {
+            display: none;
+        }
+            h3{
+            font-size: 36px;
+            font-weight: 400;
+            color: $fontking-color;
+            font-family: $font-pingfang;
+            margin-top: 65px;
+        }
+        p{
+            margin-top: 30px;
+            font-size: 28px;
+            font-weight: 400;
+            color: #333;
+            line-height: 46px;
+            font-family: $font-pingfang;
+        }
+        .fimg{
+            margin-top: 30px;
+        }
+
+    }
+
+
+}
+#footer{
+    margin-top: 1488px;
+}
